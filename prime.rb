@@ -21,7 +21,7 @@ def prime?(user_number)
         marked_number += number
       end
     end
-    puts "iteration: #{idx}"
+    #puts "iteration: #{idx}"
   end
 
   return prime_numbers.include?(user_number)
