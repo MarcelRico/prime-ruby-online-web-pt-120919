@@ -12,7 +12,7 @@ def prime?(user_number)
             prime_numbers << num
           end
         end
-        return prime_numbers
+        return prime_numbers.include?(number)
       end
       prime_numbers << number
       marked_number = number
@@ -24,5 +24,5 @@ def prime?(user_number)
     puts "iteration: #{idx}"
   end
 
-  return prime_numbers
+  return prime_numbers.include?(user_number)
 end
