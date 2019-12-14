@@ -3,7 +3,7 @@ def prime?(user_number)
   marked_list = []
   prime_numbers = [] 
 
-  array.length.times do |idx|
+  array.length.times do |idx| # Iterate through array created from user number
     number = array[idx]
     if(!marked_list.include?(number))
       if(number**2 > user_number)
